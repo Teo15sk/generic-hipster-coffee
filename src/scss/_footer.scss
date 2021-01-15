@@ -1,0 +1,46 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $bg-color3;
+    color: $font-color2;
+    padding: 3rem 2rem;
+    &__img {
+        width: 80%;
+        height: 90%;
+        position: absolute;
+        bottom: 14rem;
+    }
+    &__nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        a {
+            display: block;
+            padding: 1.5rem 0.5rem;
+            color: $font-color3;
+            &:last-of-type {
+                padding-right: 0;
+            }
+            &:first-of-type {
+                padding-left: 0;
+            }
+        }
+    }
+    &__social {
+        display: flex;
+        flex-direction: column;
+
+        h5 {
+            margin: 2rem 0 0 0;
+        }
+        a {
+            color: $font-color3;
+        }
+    }
+}
