@@ -1,0 +1,85 @@
+@import "variables";
+
+@import "general";
+
+@import "header";
+
+
+.header__nav a:nth-of-type(2) {
+    font-weight: 500;
+}
+
+.heading {
+    padding: 3rem 2rem 0.5rem 2rem;
+    &__intro {
+        display: flex;
+        flex-direction: column;
+        h1 {
+            margin-top: 0;
+            margin-bottom: 1.5rem;
+            max-width: 40%;
+            line-height: 3.5rem;
+        }
+        h2 {
+            margin-top: 0;
+            margin-bottom: 1.5rem;
+            max-width: 55%;
+            line-height: 3rem;
+        }
+    }
+    &__img {
+        max-width: 100%;
+    }
+}
+
+.contact {
+    padding: 0.5rem 2rem;
+    &__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 0.5rem;
+        h4 {
+            margin: 0;
+        }
+    }
+}
+
+
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_left, .menu_right, h1 {
+    padding: 0.5rem 2rem;
+}
+
+h1 {
+    margin-bottom: 0%;
+}
+
+.espreso {
+    margin-bottom:  10rem;
+}
+
+h2 {
+    padding-top: 4rem;
+}
+
+.mobile_no_padding_top {
+    padding-top: 0;
+}
+
