@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $bg-color2;
+    padding: 1rem 5rem;
+    @media screen and (min-width: 576px) {
+        flex-direction: row;
+        padding: 1rem 8rem;
+        max-height: 10rem;
+    }
+
+    &__logo {
+        width: 30%;
+        @media screen and (min-width: 576px) {
+            max-height: 9rem;
+            max-width: 9rem;
+        }
+    }
+    &__nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        a {
+            display: block;
+            padding: 1.5rem 0.5rem;
+            text-decoration: none;
+            color: $font-color1;
+            &:last-of-type {
+                padding-right: 0;
+            }
+            &:first-of-type {
+                padding-left: 0;
+            }
+        }
+    }
+}
