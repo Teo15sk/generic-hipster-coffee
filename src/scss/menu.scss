@@ -83,3 +83,9 @@ h2 {
     padding-top: 0;
 }
 
+@import "footer";
+
+.footer__nav a:first-of-type {
+    color: $font-color2;
+    text-decoration: none;
+}

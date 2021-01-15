@@ -1,7 +1,7 @@
 .footer {
     display: flex;
     flex-direction: column;
-    position: sticky;
+
     bottom: 0;
     right: 0;
     left: 0;
@@ -13,7 +13,7 @@
     &__img {
         width: 80%;
         height: 90%;
-        position: absolute;
+        position: sticky;
         bottom: 14rem;
     }
     &__nav {
