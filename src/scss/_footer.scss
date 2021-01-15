@@ -9,7 +9,8 @@
     align-items: center;
     background-color: $bg-color3;
     color: $font-color2;
-    padding: 3rem 2rem;
+    padding: 2rem 2rem;
+
     &__img {
         width: 80%;
         height: 90%;
@@ -37,7 +38,7 @@
         flex-direction: column;
 
         h5 {
-            margin: 2rem 0 0 0;
+            margin: 1.5rem 0 0 0;
         }
         a {
             color: $font-color3;
